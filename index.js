@@ -66,7 +66,7 @@ function hukugo(text1){
 
 let text= unicodeToText(text1);
 
-   let shift =100;
+   let shift =100;//暗号化時の値と一致させる。SS。GAS
 let unicord_arr=[];
 let encrypt_arr=[];
 
