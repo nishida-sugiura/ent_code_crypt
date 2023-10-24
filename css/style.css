@@ -188,9 +188,7 @@ h1.m{
 font-size: vw;
 margin-bottom: 1vw;
 margin-top: 1vw;
-	
-margin-left: 1vw;
-margin-right: 1vw;	
+
 }
 
 
@@ -439,7 +437,7 @@ p span{
   padding: 0;
 }
 .box-simple4 {
-  margin: 1em;
+margin: 1em 2em; /* 上下は1em、左右は2emのマージン */
   padding: 1em;
   border: 5px double #ccddff;
   border-radius: 10px;  
