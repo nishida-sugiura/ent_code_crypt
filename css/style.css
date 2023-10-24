@@ -437,13 +437,13 @@ p span{
   padding: 0;
 }
 .box-simple4 {
-margin: 1vw 4vw; /* 上下は1em、左右は2emのマージン */
+margin: 1vw 4vw; /* 上下は1vw、左右は2vwのマージン */
   padding: 1em;
   border: 5px double #ccddff;
   border-radius: 10px;  
 }
 .box-simple4 p {
-margin: 0; /* 上下は1em、左右は2emのマージン */
+margin: 0;
   padding: 0;
 text-align: center;
 font-size: 4vw;	
