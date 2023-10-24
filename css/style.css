@@ -437,7 +437,7 @@ p span{
   padding: 0;
 }
 .box-simple4 {
-margin: 1em 2em; /* 上下は1em、左右は2emのマージン */
+margin: 1em 4em; /* 上下は1em、左右は2emのマージン */
   padding: 1em;
   border: 5px double #ccddff;
   border-radius: 10px;  
