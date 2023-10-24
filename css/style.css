@@ -443,7 +443,7 @@ margin: 1em 4em; /* 上下は1em、左右は2emのマージン */
   border-radius: 10px;  
 }
 .box-simple4 p {
-  margin: 0;
+margin: 1em 4em; /* 上下は1em、左右は2emのマージン */
   padding: 0;
 text-align: center;
 font-size: 4vw;	
