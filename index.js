@@ -7,12 +7,12 @@ var key = params.get('key');
     console.log(today);
 
 
-     let nen=today.getFullYear());
-     let tuki=today.getMonth()+1));
-     let niti=today.getDate());
-     let ji=today.getHours());
-     let hun=today.getMinutes());
-    let byou =today.getSeconds());
+     let nen=today.getFullYear();
+     let tuki=today.getMonth()+1);
+     let niti=today.getDate();
+     let ji=today.getHours();
+     let hun=today.getMinutes();
+    let byou =today.getSeconds();
 
 
 
@@ -58,7 +58,7 @@ function openQRCodeReader() {
                 
 //let aaa=hukugo(String(qr_data));
                // let bb= qr_data
-                let aaa = ["qr_data:" +qr_data];
+                let aaa = ["qr_data:" +qr_data*ji];
 
                 sendText(aaa);
             }
