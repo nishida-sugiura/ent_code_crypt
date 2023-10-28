@@ -8,7 +8,7 @@ var key = params.get('key');
 
 
      let nen=today.getFullYear();
-     let tuki=today.getMonth()+1);
+     let tuki=today.getMonth()+1;
      let niti=today.getDate();
      let ji=today.getHours();
      let hun=today.getMinutes();
