@@ -4,7 +4,7 @@ var key = params.get('key');
 //let daytime2 = document.getElementById("textArea").value.trim();
 
 
-   var today = new Date();
+   let today = new Date();
     console.log(today);
  
     console.log("年=" + today.getFullYear());
@@ -33,7 +33,7 @@ $(function () {
         
     let msg={};
     
-       msg = ["code：" +today+ s_code] ;　 //トークに送信する内容
+       msg = ["code：" + s_code] ;　 //トークに送信する内容
 
         
         
